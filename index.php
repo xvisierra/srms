@@ -43,7 +43,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
     </head>
-    <body class="" style="background-image: url('class.jpg');background-repeat: no-repeat;
+    <body class="" style="background-image: url('rnsit fgate.jpg');background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   ">
@@ -51,7 +51,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 
             <div class="">
                 <div class="row">
- <u><h1 align="center">DEPARTMENT OF ISE <br>RESULT MANAGEMENT SYSTEM</h1></u>
+ <u><h1 align="center">DEPARTMENT OF ISE <br>STUDENT RESULT MANAGEMENT SYSTEM</h1></u>
                     <div class="col-lg-6 visible-lg-block">
 
 <section class="section">
@@ -107,7 +107,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                             <div class="panel">
                                                 <div class="panel-heading">
                                                     <div class="panel-title text-center">
-                                                        <h4><strong>Admin Login!</strong></h4>
+                                                        <h4><strong>Admin Login</strong></h4>
                                                     </div>
                                                 </div>
                                                 <div class="panel-body p-20">
@@ -178,5 +178,8 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
         </script>
 
         <!-- ========== ADD custom.js FILE BELOW WITH YOUR CHANGES ========== -->
+        <div class="foot" style="text-align:center; color:white"><footer>
+<h3> Brought To You By <a href="" style="text-align:center;color:black">Sameer and Ruchi </a>
+</footer> </div>
     </body>
 </html>

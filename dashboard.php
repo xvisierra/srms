@@ -27,7 +27,9 @@ if(strlen($_SESSION['alogin'])=="")
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
     </head>
-    <body class="top-navbar-fixed">
+    <body class="top-navbar-fixed" style="background-image: url('rnsit admin.jpg');background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;" >
         <div class="main-wrapper">
               <?php include('includes/topbar.php');?>
             <div class="content-wrapper">

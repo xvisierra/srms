@@ -25,6 +25,13 @@ array_push($sid1,$row['id']);
   
 for($i=0;$i<count($mark);$i++){
     $mar=$mark[$i];
+    if($mar>40)
+    {
+        echo "<script>alert('Marks should be less than equal to 40');</script>";
+        //header('Location: add-result.php?error=Invalid+input');
+
+        return;
+    }
   $sid=$sid1[$i];
 $sql="INSERT INTO  tblresult(StudentId,ClassId,SubjectId,marks) VALUES(:studentid,:class,:sid,:marks)";
 $query = $dbh->prepare($sql);

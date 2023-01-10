@@ -123,11 +123,11 @@ $cnt++;}
 ?>
 <tr>
                                                 <th scope="row" colspan="2">Total Marks</th>
-<td><b><?php echo htmlentities($totlcount); ?></b> out of <b><?php echo htmlentities($outof=($cnt-1)*100); ?></b></td>
+<td><b><?php echo htmlentities($totlcount); ?></b> out of <b><?php echo htmlentities($outof=($cnt-1)*40); ?></b></td>
                                                         </tr>
 <tr>
                                                 <th scope="row" colspan="2">Percntage</th>           
-                                                            <td><b><?php echo  htmlentities($totlcount*(100)/$outof); ?> % passed</b></td>
+                                                            <td><b><?php echo  htmlentities($totlcount*(40)/($outof)); ?> % passed</b></td>
                                                              </tr>
 <tr>
                                                 <th scope="row" colspan="2">Download Result</th>           
