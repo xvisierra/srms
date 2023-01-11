@@ -30,7 +30,7 @@ include('includes/config.php');
                         <div class="container-fluid">
                             <div class="row page-title-div">
                                 <div class="col-md-12">
-                                    <h2 class="title" align="center">Result Management System</h2>
+                                    <h2 class="title" align="center">Dept. of ISE <br>Result Management System</h2>
                                 </div>
                             </div>
                             <!-- /.row -->
@@ -125,10 +125,7 @@ $cnt++;}
                                                 <th scope="row" colspan="2">Total Marks</th>
 <td><b><?php echo htmlentities($totlcount); ?></b> out of <b><?php echo htmlentities($outof=($cnt-1)*40); ?></b></td>
                                                         </tr>
-<tr>
-                                                <th scope="row" colspan="2">Percntage</th>           
-                                                            <td><b><?php echo  htmlentities($totlcount*(40)/($outof)); ?> % passed</b></td>
-                                                             </tr>
+
 <tr>
                                                 <th scope="row" colspan="2">Download Result</th>           
                                                             <td><b><a href="download-result.php">Download </a> </b></td>
