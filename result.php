@@ -126,10 +126,7 @@ $cnt++;}
 <td><b><?php echo htmlentities($totlcount); ?></b> out of <b><?php echo htmlentities($outof=($cnt-1)*40); ?></b></td>
                                                         </tr>
 
-<tr>
-                                                <th scope="row" colspan="2">Download Result</th>           
-                                                            <td><b><a href="download-result.php">Download </a> </b></td>
-                                                             </tr>
+
 
  <?php } else { ?>     
 <div class="alert alert-warning left-icon-alert" role="alert">
